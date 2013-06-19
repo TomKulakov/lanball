@@ -5,3 +5,13 @@
 *.war
 *.ear
 /nbproject/private/
+!/lib/libgdx/gdx.jar
+!/lib/libgdx/gdx-backend-lwjgl-natives.jar
+!/lib/libgdx/gdx-openal.jar
+!/lib/libgdx/gdx-backend-android.jar
+!/lib/libgdx/gdx-backend-jglfw.jar
+!/lib/libgdx/gdx-natives.jar
+!/lib/libgdx/gdx-backend-gwt.jar
+!/lib/libgdx/gdx-backend-jglfw-natives.jar
+!/lib/libgdx/gdx-backend-lwjgl.jar
+!/lib/libgdx/gdx-backend-iosmonotouch.jar
