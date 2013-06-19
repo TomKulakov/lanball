@@ -5,5 +5,3 @@
 *.war
 *.ear
 /nbproject/private/
-!/libs/gdx.jar
-!/libs/gdx-sources.jar
