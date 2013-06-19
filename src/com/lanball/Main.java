@@ -9,8 +9,8 @@ public class Main {
         LwjglApplicationConfiguration cfg = new LwjglApplicationConfiguration();
         cfg.title = "lanball";
         cfg.useGL20 = false;
-        cfg.width = 480;
-        cfg.height = 320;
+        cfg.width = 1024;
+        cfg.height = 612;
         LanBall lanBall = new LanBall();
         LwjglApplication game = new LwjglApplication(lanBall, cfg);
     }
