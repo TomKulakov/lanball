@@ -14,5 +14,4 @@ public class Main {
         LanBall lanBall = new LanBall(cfg);
         LwjglApplication game = new LwjglApplication(lanBall, cfg);
     }
-    
 }
