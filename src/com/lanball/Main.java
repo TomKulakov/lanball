@@ -11,7 +11,7 @@ public class Main {
         cfg.useGL20 = false;
         cfg.width = 480;
         cfg.height = 320;
-        LanBall lanBall = new LanBall(cfg);
+        LanBall lanBall = new LanBall();
         LwjglApplication game = new LwjglApplication(lanBall, cfg);
     }
     
