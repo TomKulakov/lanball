@@ -3,6 +3,7 @@ package com.lanball;
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input.Keys;
+import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.GL10;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.Texture;
@@ -75,6 +76,16 @@ public class LanBall implements ApplicationListener {
         }
         if (Gdx.input.isKeyPressed(Keys.DPAD_DOWN)) {
             playerY -= Gdx.graphics.getDeltaTime() * playerSpeed;
+        }
+        if (Gdx.input.isKeyPressed(Keys.X)) {
+            /*            if (player.getColor().equals(Color.CYAN)) {
+             player.setColor(Color.WHITE);
+             } else {
+             }*/
+            player.setColor(Color.DARK_GRAY);
+        }
+        if (Gdx.input.isKeyPressed(Keys.Z)) {
+             player.setColor(Color.WHITE);
         }
 
         batch.setProjectionMatrix(camera.combined);
